@@ -59,7 +59,8 @@
         android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Next" />
+        android:text="Next"
+        android:onClick="btn_next" />
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>

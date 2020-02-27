@@ -24,49 +24,49 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content" >
 
-        <RadioButton
-            android:id="@+id/radioButton2"
+        <CheckBox
+            android:id="@+id/checkbox2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Under 1000" />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
+        <CheckBox
+            android:id="@+id/checkbox3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Music functions" />
 
-        <RadioButton
-            android:id="@+id/radioButton4"
+        <CheckBox
+            android:id="@+id/checkbox4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Photo functions" />
 
-        <RadioButton
-            android:id="@+id/radioButton5"
+        <CheckBox
+            android:id="@+id/checkbox5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Game functions" />
 
-        <RadioButton
-            android:id="@+id/radioButton6"
+        <CheckBox
+            android:id="@+id/checkbox6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Business functions(Word, Excel, ect.)" />
-        <RadioButton
-            android:id="@+id/radioButton7"
+        <CheckBox
+            android:id="@+id/checkbox7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="GPS functions" />
 
-        <RadioButton
-            android:id="@+id/radioButton8"
+        <CheckBox
+            android:id="@+id/checkbox8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Data functions(Bluetooth, WLAN, ect.)" />
 
-        <RadioButton
-            android:id="@+id/radioButton9"
+        <CheckBox
+            android:id="@+id/checkbox9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Others" />
@@ -77,7 +77,8 @@
         android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Next" />
+        android:text="Next"
+        android:onClick="btn_next" />
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>

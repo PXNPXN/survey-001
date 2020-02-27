@@ -2,11 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:text="THANK YOU"
+        android:textSize="40sp"
+        android:gravity="bottom" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="FOR YOUR ANSWERS!"
+        android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:onClick="btn_finish" />
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>

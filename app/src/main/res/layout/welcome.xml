@@ -49,8 +49,8 @@
         android:text="-Please follow the step we designed for you an don't skip any questions."
         android:textSize="20sp" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
+    <CheckBox
+        android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="I accept these requests." />
@@ -59,6 +59,7 @@
         android:id="@+id/buttonStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LET'S START!" />
+        android:text="LET'S START!"
+        android:onClick="btn_start"/>
     <!-- END    : Your code should be within this block -->
 </LinearLayout>
