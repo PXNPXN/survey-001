@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else {
             Toast.makeText(this, "Haven't selected to accept", Toast.LENGTH_LONG).show();
+            return;
         }
     }
 

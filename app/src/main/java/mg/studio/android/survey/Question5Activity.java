@@ -45,6 +45,7 @@ public class Question5Activity extends AppCompatActivity {
         }
         if (q.equals("Q5: ")) {
             Toast.makeText(this, "Haven't selected one", Toast.LENGTH_SHORT).show();
+            return;
         }
 
         Intent intent = this.getIntent();

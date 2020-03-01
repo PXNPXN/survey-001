@@ -43,6 +43,7 @@ public class Question1Activity extends AppCompatActivity {
         }
         else  {
             Toast.makeText(this, "Haven't selected one", Toast.LENGTH_SHORT).show();
+            return;
         }
 
         Intent intent = new Intent(this, Question2Activity.class);

@@ -21,6 +21,7 @@ public class Question6Activity extends AppCompatActivity {
 
         if (((EditText)findViewById(R.id.editText)).getText().toString().equals("")) {
             Toast.makeText(this, "Can't be null", Toast.LENGTH_SHORT).show();
+            return;
         }
         else {
             q += ((EditText)findViewById(R.id.editText)).getText().toString();
