@@ -59,7 +59,7 @@ public class ReportActivity extends AppCompatActivity {
         else {
             File sdFile = Environment.getExternalStorageDirectory();
             System.out.println("---------------------"+sdFile);
-            File saveData = new File(sdFile, "savedata.txt");
+            File saveData = new File(sdFile, "savedata.json");
 
             try {
                 FileOutputStream fout = new FileOutputStream(saveData);
