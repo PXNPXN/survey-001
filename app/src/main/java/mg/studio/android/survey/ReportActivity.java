@@ -3,6 +3,7 @@ package mg.studio.android.survey;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -57,6 +58,7 @@ public class ReportActivity extends AppCompatActivity {
         }
         else {
             File sdFile = Environment.getExternalStorageDirectory();
+            System.out.println("---------------------"+sdFile);
             File saveData = new File(sdFile, "savedata.txt");
 
             try {

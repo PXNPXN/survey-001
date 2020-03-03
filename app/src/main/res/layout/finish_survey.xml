@@ -23,8 +23,9 @@
 
     <Button
         android:id="@+id/buttonStart"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
         android:text="FINISH"
         android:onClick="btn_finish" />
     <!-- END    : Your code should be within this block -->
